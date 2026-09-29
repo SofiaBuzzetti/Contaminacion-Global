@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contaminación Global</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         ENCABEZADO
+    ========================== -->
+
+    <header>
+
+        <h1 id="titulo">🌎 Contaminación Global</h1>
+
+        <p id="subtitulo">
+            Un problema que nos afecta a todos
+        </p>
+
+        <button id="botonIdioma" onclick="cambiarIdioma()">
+            🇮🇹 Leggi in italiano
+        </button>
+
+        <nav>
+            <a href="#problema" id="navProblema">El problema</a>
+            <a href="#causas" id="navCausas">Causas</a>
+            <a href="#consecuencias" id="navConsecuencias">Consecuencias</a>
+            <a href="#soluciones" id="navSoluciones">Soluciones</a>
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <!-- =========================
+             INICIO
+        ========================== -->
+
+        <section class="inicio">
+
+            <img
+                src="https://images.unsplash.com/photo-1614730321146-b6fa6a46bcb4?auto=format&fit=crop&w=1200&q=80"
+                alt="Planeta Tierra visto desde el espacio"
+                class="imagen-principal">
+
+            <h2 id="inicioTitulo">
+                🌱 Cuidar el planeta es responsabilidad de todos
+            </h2>
+
+            <p id="inicioTexto1">
+                La contaminación global es uno de los grandes desafíos
+                ambientales de nuestro tiempo. El aire, el agua y el suelo
+                pueden verse afectados por diferentes actividades humanas.
+            </p>
+
+            <p id="inicioTexto2">
+                Cuidar el medio ambiente es una responsabilidad de todos.
+                Con pequeñas acciones cotidianas podemos ayudar a proteger
+                nuestro planeta y las generaciones futuras.
+            </p>
+
+        </section>
+
+
+        <!-- =========================
+             PROBLEMA
+        ========================== -->
+
+        <section id="problema">
+
+            <h2 id="problemaTitulo">
+                🌍 ¿Qué es la contaminación?
+            </h2>
+
+            <p id="problemaTexto">
+                La contaminación ocurre cuando sustancias o formas de energía
+                perjudiciales llegan al ambiente y alteran su equilibrio.
+                Puede afectar a los ecosistemas, los animales, las plantas
+                y también a las personas.
+            </p>
+
+
+            <div class="tarjetas">
+
+                <!-- AIRE -->
+
+                <article>
+
+                    <img
+                        src="https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&w=800&q=80"
+                        alt="Contaminación del aire">
+
+                    <h3 id="aireTitulo">
+                        💨 Contaminación del aire
+                    </h3>
+
+                    <p id="aireTexto">
+                        Se produce cuando gases, partículas y otros
+                        contaminantes llegan a la atmósfera.
+                    </p>
+
+                </article>
+
+
+                <!-- AGUA -->
+
+                <article>
+
+                    <img
+                        src="https://images.unsplash.com/photo-1498623116890-37e912163d5d?auto=format&fit=crop&w=800&q=80"
+                        alt="Contaminación del agua">
+
+                    <h3 id="aguaTitulo">
+                        💧 Contaminación del agua
+                    </h3>
+
+                    <p id="aguaTexto">
+                        Ocurre cuando residuos, sustancias químicas y otros
+                        contaminantes llegan a ríos, mares y océanos.
+                    </p>
+
+                </article>
+
+
+                <!-- SUELO -->
+
+                <article>
+
+                    <img
+                        src="https://images.unsplash.com/photo-1530587191325-3db32d826c18?auto=format&fit=crop&w=800&q=80"
+                        alt="Contaminación del suelo">
+
+                    <h3 id="sueloTitulo">
+                        🌱 Contaminación del suelo
+                    </h3>
+
+                    <p id="sueloTexto">
+                        Los residuos y determinadas sustancias pueden
+                        deteriorar la calidad del suelo y afectar
+                        a los ecosistemas.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             CAUSAS
+        ========================== -->
+
+        <section id="causas">
+
+            <h2 id="causasTitulo">
+                🏭 Principales causas
+            </h2>
+
+            <ul id="listaCausas">
+
+                <li>Uso de combustibles fósiles.</li>
+
+                <li>Emisiones de industrias y vehículos.</li>
+
+                <li>Acumulación y mala gestión de residuos.</li>
+
+                <li>Deforestación y degradación de ecosistemas.</li>
+
+                <li>Uso excesivo de determinados productos y recursos.</li>
+
+                <li>
+                    Contaminación producida por algunas actividades
+                    agrícolas e industriales.
+                </li>
+
+            </ul>
+
+
+            <img
+                src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80"
+                alt="Zona urbana y contaminación"
+                class="imagen-seccion">
+
+        </section>
+
+
+        <!-- =========================
+             CONSECUENCIAS
+        ========================== -->
+
+        <section id="consecuencias">
+
+            <h2 id="consecuenciasTitulo">
+                ⚠️ Consecuencias
+            </h2>
+
+
+            <div class="tarjetas">
+
+                <!-- CAMBIO CLIMÁTICO -->
+
+                <article>
+
+                    <img
+                        src="https://images.unsplash.com/photo-1569511166187-97eb6e387b50?auto=format&fit=crop&w=800&q=80"
+                        alt="Cambio climático">
+
+                    <h3 id="climaTitulo">
+                        🌡️ Cambio climático
+                    </h3>
+
+                    <p id="climaTexto">
+                        Las emisiones de gases de efecto invernadero
+                        contribuyen al calentamiento del planeta y al
+                        cambio climático.
+                    </p>
+
+                </article>
+
+
+                <!-- ECOSISTEMAS -->
+
+                <article>
+
+                    <img
+                        src="https://images.unsplash.com/photo-1535338454770-8be927b5a00b?auto=format&fit=crop&w=800&q=80"
+                        alt="Animales y naturaleza">
+
+                    <h3 id="ecosistemasTitulo">
+                        🐢 Daño a los ecosistemas
+                    </h3>
+
+                    <p id="ecosistemasTexto">
+                        La contaminación puede perjudicar a especies
+                        animales, plantas y ecosistemas terrestres
+                        y acuáticos.
+                    </p>
+
+                </article>
+
+
+                <!-- SALUD -->
+
+                <article>
+
+                    <img
+                        src="https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&w=800&q=80"
+                        alt="Salud y contaminación">
+
+                    <h3 id="saludTitulo">
+                        🏥 Salud humana
+                    </h3>
+
+                    <p id="saludTexto">
+                        Determinados contaminantes pueden afectar la salud,
+                        especialmente cuando la exposición es elevada
+                        o prolongada.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             SOLUCIONES
+        ========================== -->
+
+        <section id="soluciones">
+
+            <h2 id="solucionesTitulo">
+                ♻️ ¿Qué podemos hacer?
+            </h2>
+
+            <p id="solucionesTexto">
+                Resolver la contaminación requiere acciones de gobiernos,
+                empresas y ciudadanos. Algunas medidas cotidianas también
+                pueden ayudar a reducir nuestro impacto ambiental.
+            </p>
+
+            <ul id="listaSoluciones">
+
+                <li>♻️ Reducir, reutilizar y reciclar.</li>
+
+                <li>
+                    🚲 Usar transporte público, caminar o andar en bicicleta
+                    cuando sea posible.
+                </li>
+
+                <li>💡 Ahorrar energía.</li>
+
+                <li>💧 Evitar desperdiciar agua.</li>
+
+                <li>🛍️ Reducir el consumo innecesario.</li>
+
+                <li>🌳 Proteger y recuperar espacios naturales.</li>
+
+                <li>
+                    📚 Informarnos y compartir conocimientos sobre
+                    el cuidado ambiental.
+                </li>
+
+            </ul>
+
+        </section>
+
+
+        <!-- =========================
+             MENSAJE FINAL
+        ========================== -->
+
+        <section class="mensaje">
+
+            <h2 id="finalTitulo">
+                🌎 Nuestro planeta es nuestro hogar
+            </h2>
+
+            <p id="finalTexto">
+                Los problemas ambientales son globales, pero nuestras
+                acciones también pueden contribuir al cambio. Cada decisión
+                responsable puede formar parte de un esfuerzo colectivo
+                para cuidar el planeta.
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         PIE DE PÁGINA
+    ========================== -->
+
+    <footer>
+
+        <p id="footer1">
+            🌱 Proyecto educativo sobre contaminación global
+        </p>
+
+        <p id="footer2">
+            Hecho con HTML, CSS y JavaScript
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
